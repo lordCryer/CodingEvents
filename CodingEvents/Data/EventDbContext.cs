@@ -8,7 +8,7 @@ namespace CodingEvents.Data
     {
         public DbSet<Event> Events { get; set; }
 
-        public DbSet<EventCatagory> Catagory { get; set; }
+        
 
         public EventDbContext(DbContextOptions<EventDbContext> options)
             : base(options)
